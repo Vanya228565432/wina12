@@ -50,7 +50,7 @@ function lightMode() {
   root.style.setProperty("--solid-background-color", "white")
   root.style.setProperty("--border-color", "lightgray")
 
-  document.querySelector("body").style.backgroundImage = "url(https://raw.githubusercontent.com/notAperson535/Win11-HTML/main/img/backgroundlight.jpg)"
+  document.querySelector("body").style.backgroundImage = "url(img/i.webp)"
 
   document.querySelectorAll(".explorerarrow").forEach(elmnt => elmnt.style.color = "#555")
   document.querySelectorAll(".explorermainsectionheader").forEach(elmnt => elmnt.style.color = "#393C5C")
